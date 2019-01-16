@@ -1,0 +1,201 @@
+<!Doctype html>
+<html lang="ko">
+<head>
+    <title>fullPage_Queen's ALE</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/queens_favicon_d2W_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="font/font.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+   
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var myFullpage = new fullpage('#fullpage', {
+                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                navigation:true,
+                percentage:80,
+                centered:false,
+                anchors:['firstPage', 'secondPage', 'thirdPage','fourthPage'],
+            });
+            
+            
+            //메뉴 클릭시 부드럽게 이동
+            
+            $(".variable").slick({
+                dots: true,
+                infinite: true,
+                variableWidth: true,
+                slidesToShow:3,
+                slidesToScroll:1,
+                autoplay:true,
+                autoplaySpeed:2000,
+                arrows:false,
+            });
+        });
+    </script>
+</head>
+    
+<body>
+    <!--header-->
+    <header id="header">
+        <!--logo-->
+        <h1><a href="#firstPage">QUEEN's ALE</a></h1>
+        <!--logo-->
+        
+        <!--menu-->
+        <ul class="menu cf" id="menu">
+            <li data-menuanchor="firstPage" class="btn btn--stripe btn--large"><a href="#firstPage">HOME</a></li>
+            <li data-menuanchor="secondPage" class="btn btn--stripe btn--large"><a href="#secondPage">Queen's ALE</a></li>
+            <li data-menuanchor="thirdPage" class="btn btn--stripe btn--large"><a href="#thirdPage">POSTER</a></li>
+            <li data-menuanchor="fourthPage" class="btn btn--stripe btn--large"><a href="#fourthPage">INFO</a></li>
+        </ul>
+        <!--menu-->
+    </header>
+    <!--header-->
+    
+    <!--container-->
+    <div id="fullpage">
+        <!--firstPage-->
+        <div class="section active" id="section0" data-anchor="firstPage">mainBanner</div>
+        <!--firstPage-->
+        
+        <!--secondPage-->
+        <div class="section" id="section1" data-anchor="secondPage">
+            <!--slide01-->
+            <div class="slide slide01">
+                <h2>QUEEN's ALE<span></span></h2>
+                <div class="content01">
+                <h1>QUEEN's ALE</h1>
+                <p>트리플 호핑과 풀바디감의 깊고 풍부한<br/>Premium Pale Ale맥주</p>
+                <h4>PRODUCT INFORMATION</h4>
+                <div class="table01">
+                    <dl class="cf first">
+                        <dt>용량</dt>
+                        <dd class="bottle"><span>병 330mL</span></dd>
+                        <dd class="can"><span>캔 355mL 500mL</span></dd>
+                    </dl>
+                    <dl class="cf">
+                        <dt>알코올</dt>
+                        <dd>5.4%</dd>
+                        </dl>
+                    <dl class="cf">
+                        <dt>특징</dt>
+                        <dd class="char">맥주 맛이 가진 의미와 깊이를 이해하는 인생의 탐험가를 위하여<br/>트리플 호핑과 꿀바디감의 깊고 풍부한 전통 Premium Pale Ale 맥주</dd>
+                    </dl>
+                </div>
+                </div>
+            </div>
+            <!--slide01-->
+            
+            <!--slide02-->
+            <div class="slide slide02">
+                <h2>QUEEN's ALE<span></span></h2>
+                
+                <div class="content02">
+                    <h4><span>100% 아로마홉,</span>깊은 향의 에일맥주가 되다</h4>
+                    <p>맥주의 향은 홉이 좌우합니다.100%아로마홉으로 만든 퀸즈에일.<br/>정통 에일의 플로럴한 향이 일품입니다</p>
+
+                    <h4><span>트리플 호핑시스템,</span>한층 더 풍부한 향을 만들다</h4>
+                    <p>일반적인 맥주는 두 번 넣고 마는 홉을 퀸즈에일은 트리플 호핑시스템으로<br/>세 번 넣어 더욱 풍부한 향을 완성시켰습니다</p>
+
+                    <h4><span>상온에서 3분,</span>에일의 향 더욱 완벽해지다</h4>
+                    <p>오픈하고 3분 후 차가운 병에 갇혀있던 아로마가 완벽하게 피어오릅니다</p>
+                </div>
+            </div>
+            <!--slide02-->
+            
+            <!--slide03-->
+            <div class="slide slide03">
+                <h2>QUEEN's ALE<span></span></h2>
+                
+                <div class="content03">
+                    <h3>
+                        Queen's ALE은 선호도에 따라 다양한 맛을 즐길 수 있도록 두 가지 타입으로 출시되었습니다
+                    </h3>
+
+                    <div class="secondP">
+                        <p>
+                        BLONDE TYPE
+                        <br/><span>맥아의 맛과 호프의 향이 균형감을 이룬 페일 에일의 특징을 가진 타입</span></p>
+                        <p>
+                        EXTRA BITTER TYPE
+                        <br/><span>호프의 함량을 높여 좀 더 깊고 강렬한 에일 특유의 쌉싸름한 맛을 살린 타입</span></p>
+                    </div>
+
+                    <h4>
+                        튤립형태로 되어있는 전용잔은 입구가 좁아 거품을 조여주고, 향을 모아 주기 때문에
+                        <br/><span>Queen's ALE</span>만의 풍미를 더욱 풍부하게 느낄 수 있습니다.
+                    </h4>
+                </div>
+            </div>
+            <!--slide03-->
+            
+        </div>
+        <!--secondPage-->
+        
+        <!--thirdPage-->
+        <div class="section" id="section2" data-anchor="thirdPage">
+            <h2>POSTER<span></span></h2>
+            
+            <!--posterSlide-->
+            <div class="variable slider">
+                <div class="slide_box">
+                    <a href="#">
+                  <img src="images/queens_ale_poster_01.png"/>
+                </a></div>
+                <div class="slide_box">
+                    <a href="#">
+                  <img src="images/queens_ale_poster_02.png"/>
+                </a></div>
+                <div class="slide_box">
+                    <a href="#">
+                  <img src="images/queens_ale_poster_03.png"/>
+                </a></div>
+                <div class="slide_box">
+                    <a href="#">
+                  <img src="images/queens_ale_poster_04.png"/>
+                </a></div>
+            </div>
+            <!--posterSlide-->
+            
+        </div>
+        <!--thirdPage-->
+        
+        <!--fourthPage-->
+        <div class="section" id="section3" data-anchor="fourthPage">
+            <!--footer-->
+            <footer id="footer">
+                <div class="footerTop">
+                    <h3>Queen's ALE</h3>
+                </div>
+                <div class="footerInfo">
+                    <ul>
+                        <li>(06075) 서울특별시 강남구 영동대로 714 하이트진로빌딩</li>
+                        <li>대표전화 080-210-0150</li>
+                        <li>사업자등록번호 214-81-00777</li>
+                    </ul>
+                    <p>&copy;Copyright 2016 HITEJINRO CO.LTD. ALL RIGHTS RESERVED.</p>
+                </div>
+            </footer>
+            <!--footer-->
+        </div>
+        <!--fourthPage-->
+        
+    </div>
+    <!--container-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
