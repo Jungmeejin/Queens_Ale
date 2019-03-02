@@ -3,11 +3,13 @@
 <head>
     <title>fullPage_Queen's ALE</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="images/queens_favicon_d2W_icon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/fullpage.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="font/font.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
     <script type="text/javascript" src="js/fullpage.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/slick.js"></script>
@@ -32,7 +34,7 @@
                 variableWidth: true,
                 slidesToShow:3,
                 slidesToScroll:1,
-                autoplay:true,
+                autoplay:false,
                 autoplaySpeed:2000,
                 arrows:false,
             });
@@ -50,11 +52,18 @@
         <!--menu-->
         <ul class="menu cf" id="menu">
             <li data-menuanchor="firstPage" class="btn btn--stripe btn--large"><a href="#firstPage">HOME</a></li>
-            <li data-menuanchor="secondPage" class="btn btn--stripe btn--large"><a href="#secondPage">Queen's ALE</a></li>
+            <li data-menuanchor="secondPage" class="btn btn--stripe btn--large secondMenu"><a href="#secondPage">Queen's ALE</a></li>
             <li data-menuanchor="thirdPage" class="btn btn--stripe btn--large"><a href="#thirdPage">POSTER</a></li>
             <li data-menuanchor="fourthPage" class="btn btn--stripe btn--large"><a href="#fourthPage">INFO</a></li>
         </ul>
         <!--menu-->
+        <!--media:568px-->
+        <div id="rotation">
+            <img src="images/move-rotation,-your-phone.png"/>
+            <p>휴대전화를 가로로 전환해주세요</p>
+            <span>Switch your phone to landscape mode</span>
+        </div>
+        <!--media:568px-->
     </header>
     <!--header-->
     
