@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media(orientation:landscape),and(min-width: 810px){
+@media(max-width: 810px){
     body{
         width:100%;
     }
